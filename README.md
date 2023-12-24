@@ -2,9 +2,9 @@
 
 This repository contains the implementation for our tool, XSEED, and other experimental data from our paper: [To Seed or Not to Seed?
 An Empirical Analysis of Usage of Seeds for Testing in Machine Learning Projects](https://saikatdutta.web.illinois.edu/papers/seeds-icst22.pdf) 
-published at ICST 2022 conference.
 
-Our source has been evaluated using Ubuntu 18.04 64 bit system. Running them on other OSes may need additional steps.
+
+This source has been evaluated using Ubuntu 18.04 64 bit system. Running them on other OSes may need additional steps.
 
 ## Tool Details 
 
@@ -53,22 +53,10 @@ all projects
 stats. This requires installing pandas.
 
 **Full test execution logs of each Project**: This step help download all experimental data and generate Table 2 in the paper. Steps:
-1. Download full experiment data from [Zenodo](https://zenodo.org/record/6388114).
-2. Extract each logs_*.gz file inside the folder.
-3. Run `python failedTestsParser.py [root of downloaded folder]`. This will generate table 2. Note that this may take several minutes.
+1. Extract each logs_*.gz file inside the folder.
+2. Run `python failedTestsParser.py [root of downloaded folder]`. This will generate table 2. Note that this may take several minutes.
 
-### Citing our work
 
-If you use our tool our any technique from our paper, cite us using:
-```
-@inproceedings{dutta2022seeds,
-  title={To Seed or Not to Seed? An Empirical Analysis of Usage of Seeds for Testing in Machine Learning Projects},
-  author={Dutta, Saikat and Arunachalam, Anshul and Misailovic, Sasa},
-  booktitle={ICST},  
-  year={2022}
-}
-
-```
 
 
 
